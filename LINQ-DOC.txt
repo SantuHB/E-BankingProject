@@ -1,0 +1,55 @@
+LINQ 
+
+1. SequenceEqual
+
+	SequenceEqual method checks whether the number of elements, 
+value of each element and order of elements.
+
+2. OfType
+
+	Filters the elements of an IEnumerable based on a specified type.
+3. All
+
+	Checks whether all elements of a sequence satisfy a condition.
+4. Any
+
+	CHECKS whether any element of a sequence exists or satisfies a condition.
+5. Skip
+
+	Skips a specified number of elements in a sequence and then returns the
+ remaining elements
+
+6. SkipWhile
+
+	Skips elements in a sequence as long as a specified condition is true and
+        then returns the remaining elements.
+
+7. Take 
+	Prints a specified number of elements from the start of a sequence.
+
+8. ElementAt
+	Shows the element at a specified index in a sequence.
+
+9. ElementAtOrDefault
+
+	Shows the element at a specified index in a sequence or a 
+	default value if the index is out of range.
+	
+	SET OPERATORS
+
+10. Except
+	
+	Shows the set difference of two sequences.
+
+11. Intersect
+
+	Shows the elements present in two sequences.
+
+12. Distinct
+
+	Prints distinct elements from a sequence. 
+	
+13. Union
+	
+	
+
