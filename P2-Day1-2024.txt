@@ -1,0 +1,258 @@
+	using NameSpaceName;		//ADDITIONAL NAMESPACES 
+		namespace Project1	----> PROJECT NAME
+		{
+	
+		Class ClassName	---CLASS1
+			{
+				//Variables 
+				//Methods
+			 MAIN METHOD 
+			}
+			Class ClassName	---CLASS2
+			{
+				//Variables 
+				//Methods
+			}
+		}
+	all classes must be enclosed inside namespace.	
+	all methods + variables enclosed inside class.
+
+	Call method 
+	------------
+	
+	C# 
+		2 steps 
+
+	Create an Object for Class
+		
+		Syntax 
+		ClassName objectName=new ClassName();
+	
+	Call method using Object Reference
+	
+		Syntax
+		objectName.MethodName();
+
+	Traineee
+	4 variables 
+	
+	Make Varaiables + Methods as public 
+
+	How to Access variables from Other Class 
+
+	Traineee class variables or methods access from Main class (Program.cs)
+
+	HOW ???????
+
+	objectName.variableName;
+	objectName.MethodName();
+
+
+	Trainee_Table
+
+	TraineeName Age Email  Location
+	
+	t1          20   e1    blr
+
+	t2          22   e2    chn
+	
+
+	
+
+	select * from Trainee_Table
+
+	Trainee Mgt System 
+
+	FRONT END ----> UI 
+
+	UI  ---- TraineePageDetails ---Html Page ---Print O/P
+
+		===> Print ALl Trainees Html Table 
+
+		Print traineeObj;
+
+	UI  ---- RegistrationPage 
+
+	       ====> 4 textbox 		====> I/P and register their details 
+
+	Main method ---Program.cs    ===> ASSUME FRONT END-- DESIGN PART 
+
+	Back end Code ----> Coding Part
+
+	Trainee Class			----> Coding Part 
+		
+			Trainee GetDetails()
+			{
+					select * from Trainee_Table
+				traineeObj=return TraineeTable ---2 Trainee Details 
+				return traineeObj;
+
+			}
+
+		void RegisterTrainee(Trainee traineeObj)
+		{
+			Insert into TraineeTable ----> traineeObj
+		}
+
+	
+
+	DESIGN PART
+
+	
+
+	CODING PART
+
+		TRAINEE.CS FILE 
+	
+		2 METHODS
+
+		GETDETAILS()	---> REGISTER TRAINEE FOR TRAINING 
+				----> I/P ---NAME , AGE , LOCATION .....
+				----> REGISTRATION PAGE -FRONT END HTML 
+				CONSOLE ---PROGRAM.CS (MAIN METHOD) ---FRONT END 
+
+		METHOD WITH PARAMETER
+		TAKING I/P FROM FRONT-END (PROGRAM.CS) ---INSERT ADD 
+
+		PRINTDETAILS()
+			TRAINEE REGISTERED DETAILS PRINTED IN FRONT END 
+			        ----> PRINT TRAINEEDETAILS_PAGE --
+			FRONT END HTML PAGE
+
+			CONSOLE ---PROGRAM.CS (MAIN METHOD) ---FRONT END 
+		METHOD WITH RETURN TYPE 
+			---SEND VALUES TO FRONT END (PROGRAM.CS) -SELECT PRINT RECORD
+	
+
+	DESIGN PART
+
+	
+
+	CODING PART
+
+		TRAINEE.CS FILE 
+	
+		2 METHODS
+
+		GETDETAILS()	---> REGISTER TRAINEE FOR TRAINING 
+				----> I/P ---NAME , AGE , LOCATION .....
+				----> REGISTRATION PAGE -FRONT END HTML 
+				CONSOLE ---PROGRAM.CS (MAIN METHOD) ---FRONT END 
+
+		METHOD WITH PARAMETER
+		TAKING I/P FROM FRONT-END (PROGRAM.CS) ---INSERT ADD 
+
+		PRINTDETAILS()
+			TRAINEE REGISTERED DETAILS PRINTED IN FRONT END 
+			        ----> PRINT TRAINEEDETAILS_PAGE --
+			FRONT END HTML PAGE
+
+			CONSOLE ---PROGRAM.CS (MAIN METHOD) ---FRONT END 
+		METHOD WITH RETURN TYPE 
+			---SEND VALUES TO FRONT END (PROGRAM.CS) -SELECT PRINT RECORD
+		
+	VARIABLES
+	----------
+	A. LOCAL VARIABLES
+		SCOPE LIMITED METHOD WHERE IT IS DECLARED.
+		STACK
+		NO DEFAULT VALUE
+		VALUE MUST BE ASSIGNED BEFORE WE ACCESS THEM
+			
+	
+	B. CLASS OR INSTANCE 
+		DECLARED AT CLASS LEVEL
+		 
+		MORE THEN ONE METHOD CAN ACCESS
+		HEAP 
+		DEFAULT VALUE  
+		DIFFEERNT COPIES OF DATA
+		  OBJECT DIFFERENT VALUES CAN BE ASSIGNED
+
+	C. STATIC VARIABLES
+		WITHOUT OBJECT WE CAN ACCESS 
+		ACCESSED BY CLASSNAME
+		DEFAULT VALUE -CLASS LEVEL
+		MORE THEN ONE METHOD CAN ACCESS
+		SAME COPIES OF DATA
+			STATIC VARIABLE VALUE CAN BE SHARED 
+			ACROSS OBJECTS.
+
+
+
+
+
+
+
+			
+
+
+
+
+
+				
+
+
+
+
+
+
+			
+
+
+
+
+
+		
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
