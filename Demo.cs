@@ -13,7 +13,7 @@ namespace Day1Demo1
 
         public void LocalVariableDemo()
         {
-            int count=100; //No Default value --Value assigned before using them
+            int count=200; //No Default value --Value assigned before using them
             Console.WriteLine("Counts : {0}", count);
         }
         public void Print()
