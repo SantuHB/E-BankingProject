@@ -1,4 +1,6 @@
 Software Details 
 
 Name			Version
+
 Sql Server 		2010 Professional Edition
+
